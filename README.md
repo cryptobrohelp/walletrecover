@@ -1,3 +1,4 @@
+<img width="972" height="760" alt="Screenshot 2026-09-26 230704" src="https://github.com/user-attachments/assets/caaca8a9-7df7-4896-93ed-b2aaae7d0c7e" />
 # WalletCracker
 
 A standalone Windows GUI for recovering a forgotten **Bitcoin Core `wallet.dat`** password.
