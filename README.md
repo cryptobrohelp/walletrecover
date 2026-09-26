@@ -55,7 +55,7 @@ Loads a Bitcoin Core `wallet.dat`, reads the encrypted master key, and tests can
 
 ## Download
 
-Grab `WalletRecoverer.rar` from the Releases page.
+Grab `WalletRecover.rar` from the Releases page.
 
 On first launch Windows will show a SmartScreen warning ("Windows protected your PC"). Click **More info** → **Run anyway**. This appears because the exe is unsigned — it is not a virus warning, just Windows flagging an unknown publisher.
 
@@ -63,7 +63,7 @@ On first launch Windows will show a SmartScreen warning ("Windows protected your
 
 ## Quick start
 
-1. **Double-click `WalletCracker.exe`.**
+1. **Double-click `RecoverWallet.exe`.**
 2. Click **Open wallet .dat…** and pick your `wallet.dat` file.
 3. Look at the info panel. It will show the salt, iteration count, and the KDF rounds that will be tried.
 4. Choose a **password source** (wordlist, brute-force, or single password).
