@@ -41,30 +41,9 @@ Loads a Bitcoin Core `wallet.dat`, reads the encrypted master key, and tests can
 
 ---
 
-## Limitations
-
-- **CPU only.** Roughly 300–1,500 passwords per second on a modern CPU core. No GPU acceleration.
-- **Bitcoin Core `wallet.dat` only.** Does not support Electrum, MetaMask, Exodus, Ledger, Trezor, or any other wallet format.
-- **Unsigned binary.** Windows SmartScreen will warn on first launch. Click *More info* → *Run anyway*.
-
----
-
-## Requirements
-
-**To run the released exe:** nothing. Download and double-click.
-
-## Download
-
-Grab `WalletRecover.rar` from the Releases page.
-
-On first launch Windows will show a SmartScreen warning ("Windows protected your PC"). Click **More info** → **Run anyway**. This appears because the exe is unsigned — it is not a virus warning, just Windows flagging an unknown publisher.
-
----
-
 ## Quick start
 
-1. **Double-click `RecoverWallet.exe`.**
-2. Click **Open wallet .dat…** and pick your `wallet.dat` file.
+1. Click **Open wallet .dat…** and pick your `wallet.dat` file.
 3. Look at the info panel. It will show the salt, iteration count, and the KDF rounds that will be tried.
 4. Choose a **password source** (wordlist, brute-force, or single password).
 5. Click **Start cracking**.
